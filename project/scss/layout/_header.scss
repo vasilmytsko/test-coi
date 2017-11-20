@@ -1,0 +1,87 @@
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+	
+}
+
+.header img{
+    position: absolute;
+    width: 100%;
+}
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header__logo{
+    margin-bottom: 138px;
+    height: 200px;
+}
+.logo{
+    display: inline-block;
+}
+.logo__pic{
+    display: block;
+    max-width: 290px;
+    max-height: 90px;
+    margin: 80px 50px;
+}
+.nav{
+   margin-left: 50px;
+    margin-top: 80px;
+}
+.nav__link{
+    font-size: 3rem;
+    font-weight: 900;
+    color:$text-color3;
+    text-transform: uppercase;
+    line-height: 2;
+    &:hover{
+        color: $text-color3;
+    }
+}
+.header__title{
+    font-size: 12rem;
+    font-weight: 900;
+    color:$text-color3;
+    text-transform: uppercase;
+    margin-right: 40px;
+    text-align: right;
+    line-height: 1.5;
+}
+.header__text{
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color:$text-color3;
+    text-align: center;
+    margin-top: 270px;
+    margin-bottom: 100px;
+    
+}
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
